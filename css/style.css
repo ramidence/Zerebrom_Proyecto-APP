@@ -1,0 +1,505 @@
+:root{
+	--f7-theme-color:#FF5757;
+	--f7-navbar-bg-color: #fff; /*navbar*/
+	--f7-navbar-link-color: #FF5757; /*navbar link*/
+	--f7-navbar-text-color:#FF5757;
+	--f7-bars-bg-color:#fff;/*toolbar*/
+	--f7-tabbar-link-inactive-color: #333; /*link toolbar*/
+	--f7-block-margin-vertical:20px;
+	--f7-card-footer-border-color:transparent; 
+	--f7-list-item-border-color:#FF5757; 
+}
+
+/*Codigo Raquel*/
+
+.panel.panel-left{
+	background-color: #EDEDED;
+}
+.panel .list ul{
+	background-color: transparent;
+	font-size: 20px;
+	font-weight: 500;
+	color: #2C2D5B;
+}
+
+.panel .links-list a:after{
+	background-color: #FF5757;
+}
+.panel .list ul:before, .list ul:after{
+	background-color: #FF5757;
+}
+
+
+.lista-tareas{
+	height: 0;
+}
+
+.titulo{
+ color: var(--f7-navbar-text-color) !important;
+ font-size: 25px;
+ padding-left: 10px;
+}
+
+.button-outline {
+	border:  2px solid;
+	
+}
+
+.division-tareas{
+	width: 300px;
+}
+.division-tarea-principal{
+	width: 380px;
+}
+
+.detalle-hora{
+	padding-left: 45px;
+	color:  #2C2D5B;
+}
+.detalle-accion{
+	padding-left: 45px;
+}
+.parrafo-tareas{
+	margin-left: 35px;
+	color:  #2C2D5B;
+}
+
+.color-azul{
+	color:  #2C2D5B;
+}
+
+.logo-menu-pequeno{
+	height: 100px;
+	display: block;
+    margin: auto;
+	margin-bottom: 0;
+}
+
+/*Codigo Alessandro*/
+
+header {
+    width: 100%; 
+    padding: 0 20px; 
+    box-sizing: border-box;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    height: 100px; 
+}
+
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+	padding-left: 20px;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: flex-end; 
+}
+
+
+hr{
+	
+	 border: 10; 
+    height: 5px; 
+    background-color: #FF5757; 
+    
+     
+}
+
+  #bienve {
+            text-align: center;
+            font-size: 25px;
+            color: #FF5757;
+            
+        }
+
+
+
+.custom-hr {
+    border: 0; 
+    background-color: #FF5757; 
+    width: 90%;
+    
+}
+
+#pendiente {
+    text-align: center; 
+    margin-top: 20px; 
+	padding-bottom: 10px;
+}
+
+.tarea-pendiente {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF5757; 
+    color: #fff; 
+    border-radius: 30px; 
+	
+}
+
+#zerebrom {
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+#zerebrom h2 {
+    color: #FF0000; 
+}
+
+.imagenes-container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 20px; 
+}
+
+.ajustar-tamano {
+    max-width: 100px; 
+    margin-top: 20px; 
+}
+
+
+
+
+     header2 .container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .atras {
+        order: 1;
+        margin-bottom: 10px;
+    }
+
+    .logito {
+        order: 2;
+        margin-bottom: 10px;
+        width: 60px; 
+    }
+
+    .pequeno {
+        width: 100%; 
+    }
+
+
+.hoy {
+    position: absolute;
+    top: 50%; 
+    
+    left: 150px; 
+    margin-top: -380px; 
+	text-align: center;
+    font-size: 25px;
+    color: #FF5757;
+	font-weight: 600;
+}
+
+
+
+     #relojito {
+        text-align: center;
+    }
+
+    #relojito img {
+        max-width: 180px;
+        padding-bottom: 10px;
+    }
+
+    .hora-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hora {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: transparent;
+        border: 2px solid #2C2D5B;
+        color: #2C2D5B;
+        border-radius: 30px;
+        margin-top: 10px;
+    }
+
+
+   #textotareas1 {
+        
+	    padding-top: 20px;
+    }
+
+       #textotareas {
+        display: flex; 
+        justify-content: space-between; 
+	    
+    }
+
+
+    h3, h4, h5 {
+        color: #2C2D5B; 
+        padding-left: 10px;
+    }
+
+    h5 {
+         padding-left: 10px;
+    }
+
+
+
+   #editar {
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+	   padding-top: 170px;
+    }
+
+    .editar, .eliminar {
+        width: 50px; 
+        padding: 10px 20px;
+        border-radius: 30px;
+        text-align: center; 
+        margin-bottom: 10px; 
+    }
+
+    .editar {
+        background-color: #FF5757;
+        color: #fff;
+    }
+
+    .eliminar {
+        background-color: transparent;
+        border: 2px solid #FF5757;
+        color: #FF5757;
+    }
+
+/*Codigo Eunice*/
+
+.navbar-inner{
+	border-bottom: 3px solid var(--f7-theme-color);
+}
+
+.navbar a.link.img {
+    width: 100px;
+	justify-content: flex-end;
+}
+
+.navbar .title{
+	margin-left: auto;
+	
+}
+
+.img-logo{
+	width: 100%;
+}
+
+.icono-nav{
+	font-size: 30px;
+}
+
+.block-title{
+	color: var(--f7-theme-color);
+}
+
+.borde-title{
+	border-bottom: 3px solid var(--f7-theme-color);
+	width: fit-content;
+}
+
+.center{
+	text-align: center !important;
+	color: #2C2D5B;
+	margin-bottom: 25px;
+}
+
+.borde-img{
+	border: 5px solid var(--f7-theme-color);
+}
+
+#block-parlantes h3, #block-miscelaneos h3{
+	font-size: 20px;
+	font-weight: 700;
+	margin: 1%;
+}
+
+#block-parlantes h4, #block-miscelaneos h4{
+	font-size: 16px;
+	font-weight: 400;
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+.button{
+	padding: 2% 5%;
+}
+
+.button {
+    width: 35%;
+    display: block;
+    margin: auto;
+	padding: 0;
+}
+
+.btn {
+    width: 35%;
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+/*Nosotros*/
+#quienes-somos{
+	background-color: var(--f7-theme-color);
+	padding: 15px 15px;
+}
+
+#quienes-somos h2{
+	color: #fff;
+	font-weight: 700;
+}
+
+#quienes-somos p{
+	color: #fff;
+}
+
+#mision, #vision, #valores{
+	color:  #2C2D5B;
+}
+
+#mision h2, #vision h2, #valores h2, #equipo h2{
+	color:  #2C2D5B;
+	font-weight: 700;
+}
+
+#valores ul{
+	padding-left: 20px;
+}
+
+#equipo .borde-img{
+	border: 2px solid var(--f7-theme-color);
+}
+
+.nombre-equipo{
+	font-size: 17px;
+	font-weight: 700;
+	margin: 1%;
+	color: var(--f7-theme-color);
+}
+
+.cargo{
+	font-size: 16px;
+	margin: 0;
+	color: #2C2D5B;
+}
+
+
+/*Codigo Pilar*/
+.icono-izquierdo{
+	opacity: 0.0;
+}
+
+.logo-menu {
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+
+.titulos{
+	color:#FF5757;
+	text-align: center;
+	font-weight: 600;
+	font-size: 25px;
+}
+
+.listado{
+	color:#FF5757;
+}
+
+.listado i{
+	font-size: 40px;
+}
+
+.block{
+	display: block;
+}
+
+.item-text{
+	color: #2C2D5B !important;
+	font-size: 16px !important;
+}
+
+
+/*Código Ivan*/
+
+#page-recordatorio{
+	background-color: #FFFFFF;
+}
+
+#page-recordatorio .card{
+	padding-top: 20px;
+	padding-bottom: 15px;
+	border-radius: 0;
+	text-align: left;
+	box-shadow: 0 25px 0 0 #FF5757;
+}
+#page-recordatorio .card-content h2{
+	padding: 10px 0;
+	font-size: 30px;
+	color: #2C2D5B;
+	font-weight:bold;
+	margin-left: 10%;
+}
+#page-recordatorio .card-content i{
+	padding: 0px 0;
+	font-size: 80px;
+	color: #2C2D5B;
+	text-align: right;
+	margin-left: 25%;
+	margin-right: 30%;
+	margin-top: 0px;
+}
+
+.azul-enlace a{
+	color: #2C2D5B !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
